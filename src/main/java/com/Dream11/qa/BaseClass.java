@@ -54,7 +54,6 @@ public class BaseClass {
 		cap.setCapability("deviceId", deviceId);
 		cap.setCapability("platformName", platformName);
 		cap.setCapability("platformVersion", platformVersion);
-
 		cap.setCapability("appPackage", appPackage);
 		cap.setCapability("appActivity", appActivity);
 
