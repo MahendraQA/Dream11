@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-12T06:00:45Z" name="Default suite" finished-at="2023-06-12T06:00:46Z" duration-ms="444">
+    <groups>
+    </groups>
+    <test started-at="2023-06-12T06:00:45Z" name="Default test" finished-at="2023-06-12T06:00:46Z" duration-ms="444">
+      <class name="com.Dream11.tests.CreateTeamTest">
+        <test-method is-config="true" signature="openSerever()[pri:0, instance:com.Dream11.tests.CreateTeamTest@6581dc0a]" started-at="2023-06-12T06:00:45Z" name="openSerever" finished-at="2023-06-12T06:00:46Z" duration-ms="285" status="FAIL">
+          <exception class="java.lang.AbstractMethodError">
+            <message>
+              <![CDATA[Receiver class io.appium.java_client.service.local.AppiumServiceBuilder does not define or inherit an implementation of the resolved method 'abstract void loadSystemProperties()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AbstractMethodError: Receiver class io.appium.java_client.service.local.AppiumServiceBuilder does not define or inherit an implementation of the resolved method 'abstract void loadSystemProperties()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:504)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:90)
+at com.Dream11.qa.BaseClass.openSerever(BaseClass.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AbstractMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSerever -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Dream11.tests.CreateTeamTest@6581dc0a]" started-at="2023-06-12T06:00:46Z" name="launchApp" finished-at="2023-06-12T06:00:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="createTeam()[pri:0, instance:com.Dream11.tests.CreateTeamTest@6581dc0a]" started-at="2023-06-12T06:00:46Z" name="createTeam" finished-at="2023-06-12T06:00:46Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AbstractMethodError">
+            <message>
+              <![CDATA[Receiver class io.appium.java_client.service.local.AppiumServiceBuilder does not define or inherit an implementation of the resolved method 'abstract void loadSystemProperties()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AbstractMethodError: Receiver class io.appium.java_client.service.local.AppiumServiceBuilder does not define or inherit an implementation of the resolved method 'abstract void loadSystemProperties()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:504)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:90)
+at com.Dream11.qa.BaseClass.openSerever(BaseClass.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AbstractMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTeam -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.Dream11.tests.CreateTeamTest@6581dc0a]" started-at="2023-06-12T06:00:46Z" name="closeApp" finished-at="2023-06-12T06:00:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="closeSerever()[pri:0, instance:com.Dream11.tests.CreateTeamTest@6581dc0a]" started-at="2023-06-12T06:00:46Z" name="closeSerever" finished-at="2023-06-12T06:00:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSerever -->
+      </class> <!-- com.Dream11.tests.CreateTeamTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
